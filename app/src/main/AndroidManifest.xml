@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MyExperiment1"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ui.viewmodeltester.ViewModeltesterActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.packagingqa.PackagingQaActivity"
             android:exported="false" />
         <activity

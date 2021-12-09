@@ -9,15 +9,18 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_packiging_qa.xml" value="0.21052631578947367" />
         <entry key="app/src/main/res/layout/activity_post.xml" value="0.11851851851851852" />
+        <entry key="app/src/main/res/layout/activity_view_modeltester.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_all_post.xml" value="0.11851851851851852" />
+        <entry key="app/src/main/res/layout/fragment_consumer.xml" value="0.26944444444444443" />
         <entry key="app/src/main/res/layout/fragment_form_submit.xml" value="0.17760416666666667" />
+        <entry key="app/src/main/res/layout/fragment_producer.xml" value="0.26944444444444443" />
         <entry key="app/src/main/res/layout/item_form_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_packedqa_layout.xml" value="0.16" />
         <entry key="app/src/main/res/layout/item_post_layout.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -13,6 +13,7 @@ import com.myexperiment1.data.network.RetrofitInstance
 import com.myexperiment1.databinding.ActivityPostBinding
 import com.myexperiment1.ui.packagingqa.PackagingQaActivity
 import com.myexperiment1.ui.post.formSubmit.FormSubmitFragment
+import com.myexperiment1.ui.viewmodeltester.ViewModeltesterActivity
 
 class PostActivity : AppCompatActivity() {
     private val TAG = "PostActivity"
@@ -26,7 +27,8 @@ class PostActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_post)
 //        loadPostFragment()
-        startActivity(Intent(this,PackagingQaActivity::class.java))
+//        startActivity(Intent(this,PackagingQaActivity::class.java))
+        startActivity(Intent(this, ViewModeltesterActivity::class.java))
         finish()
         loadFormList()
         setupPostViewModel()
